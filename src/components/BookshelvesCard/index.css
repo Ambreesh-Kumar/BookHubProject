@@ -1,0 +1,92 @@
+.bookshelves-item-list-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 20px;
+  width: 80vw;
+}
+@media screen and (min-width: 576px) {
+  .bookshelves-item-list-card {
+    width: 50vh;
+  }
+}
+.bookshelves-book-image {
+  height: 35vh;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 576px) {
+  .bookshelves-book-image {
+    height: 35vh;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+}
+.list-card-contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media screen and (min-width: 576px) {
+  .list-card-contact-container {
+    margin-top: -14px;
+  }
+}
+.list-card-contact-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: 10px;
+}
+.list-card-contact-author-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #475569;
+  margin-top: 0px;
+}
+.list-card-contact-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -21px;
+  margin-bottom: 3px;
+}
+.list-card-contact-status-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: -20px;
+}
+.rating {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #475569;
+  margin-right: 8px;
+}
+.start-icon {
+  font-size: 13px;
+  margin-right: 8px;
+  color: #fbbf24;
+}
+.status {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #475569;
+  margin-right: 8px;
+}
+.read-status {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #0284c7;
+}
